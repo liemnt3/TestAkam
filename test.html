@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <!-- JQuery Script -->
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+
+    <!-- HTML Parser -->
+    <script src="Scripts/htmlparser/lib/htmlparser.js"></script>
+
+    <!-- html-parser-to-html -->
+    <script src="Scripts/htmlparser-to-html/index.js"></script>
+
+    <script>
+        $(function () {
+            var char = ["a", "b", "c", "d", "e"];
+            var array = [];
+            for (var i = 0; i < 5; i++) {
+                var push = {};
+                push[i] = char[i];
+                array.push(push);
+            }
+            console.log(JSON.stringify(array));
+            console.log(array[2][2]);
+        })    
+    </script>
+
+</head>
+
+<body>
+    TESTTING
+</body>
+
+</html>
