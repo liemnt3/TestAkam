@@ -42,7 +42,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://mroishii.github.io/amt-office/MessageRead.html"/>
+        <SourceLocation DefaultValue="http://localhost/akaminds/MessageRead.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
